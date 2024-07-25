@@ -200,7 +200,7 @@ export default {
 
                     default:
                         // return new Response('Not found', { status: 404 });
-                        url.hostname = 'www.speedtest.im';
+                        url.hostname = 'www.nperf.com';
                         url.protocol = 'https:';
                         request = new Request(url, request);
                         return await fetch(request);
